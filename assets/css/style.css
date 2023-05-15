@@ -11,10 +11,6 @@ body{
 
 
 /* css cabeçalho */
-.menu{
-    background-color: transparent;
-    
-}
 
 .cabecalho{
     padding: 8px;
@@ -24,7 +20,10 @@ body{
     align-items: center;
     background-color: rgba(140,140,140,0.8);
 }
-
+.navbar_ativo{
+    left: 0;
+    transition: 200ms;
+}
 nav li{
     display: block;
     margin-right: 20px;
